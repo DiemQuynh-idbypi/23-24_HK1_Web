@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+            /* clear: both; */
+        }
+        
+        .form {
+            background-color: #99ccff;
+            width: 700px;
+            height: 750px;
+        }
+        
+        .info {
+            letter-spacing: 2px;
+            width: 100%;
+            max-height: fit-content;
+            display: inline-block;
+        }
+        
+        .ct1 {
+            width: 34%;
+            float: left;
+            text-align: left;
+            padding-right: -100px;
+            padding-bottom: 10px;
+            line-height: 22px;
+            vertical-align: top;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .ct2 {
+            width: 65.7%;
+            position: inherit;
+            float: left;
+            text-align: left;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            vertical-align: top;
+        }
+        
+        .ct2 input {
+            margin-bottom: 5px;
+        }
+        
+        .ct2 select {
+            margin-bottom: 5px;
+        }
+        
+        body {}
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <div>
+            <div style="text-align: center; 
+    height: 100px; 
+    width: 330px; 
+    background-color: #00ffff;
+    display: flex; 
+    box-shadow:  7px 7px 0px rgba(45, 45, 45, 0.3);
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;">
+                <h1 style="padding-top: 50px; padding-bottom: 50px;">Jackson
+                    <div style="border: black 2px solid;width: 326px;"></div>Electronics</h1>
+            </div>
+            <div style="text-align: center;">
+                <h2 style="padding-top: 20px; padding-top: 20px;">Registrationc Form</h2> <br>
+                <div style="margin-bottom: 5px;">Register your Electronic product here</div>
+            </div>
+        </div>
+        <!-- Info -->
+        <div class="info" style="">
+            <div class="ct1">
+                First Name: &#160;&#160;&#160;&#160;<br> Address#1: <br> Address#2: <br> City: <br> Country:
+            </div>
+            <div class="ct2">
+                <input type="text" style="width: 100px;"> Last Name: <input type="text" style="width: 100px;"> <br>
+                <input type="text"> <br>
+                <input type="text"> <br>
+                <input type="text" style="width: 100px;"> State: <input type="text" style="width: 30px; "> Zip: <input type="text" style="width: 60px; "><br>
+                <input type="text" style="width: 100px;">
+            </div>
+        </div>
+        <div style="border: rgb(126, 126, 126) solid 1px; padding-left: 190px; margin-left: 55px; width: 370px; margin-bottom: 20px;" class="straingt"></div>
+        <!-- product -->
+        <div class="info">
+            <div class="ct1">
+                Product: <br> Date Perchased: <br> Serial#: <br> Used for: <br> <br> <br> System: <br> <br>
+            </div>
+            <div class="ct2">
+                <select id="cars" name="cars">
+                <option value="volvo">ScanMaster</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select> <br>
+                <input type="text"> <br>
+                <input type="text"> <br>
+                <input type="radio" name="for" id=""> Home <input type="radio" name="for" id=""> Educational Institution <br>
+                <input type="radio" name="for" id=""> Business <input type="radio" name="for" id=""> Other <br>
+                <input type="radio" name="for"> Goverment <br>
+                <input type="checkbox" name="" id=""> Windows <input type="checkbox" name="" id=""> UNIX <br>
+                <input type="checkbox" name="" id=""> Macintosh <input type="checkbox"> Other
+            </div>
+        </div>
+        <div style="border: rgb(126, 126, 126) solid 1px; padding-left: 190px; margin-left: 55px; width: 370px; margin-bottom: 20px;" class="straingt"></div>
+        <div class="info">
+            <div class="ct1">
+                Comment?:&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            </div>
+            <div class="ct2">
+                <input type="text" style="width: 380px; height: 100px;">
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <button style="width: 100px; height: 20px;margin-left: -70px">Click to register</button>
+            <button style="width: 100px; height: 20px;">Click to cancel</button>
+        </div>
+    </div>
+</body>
+
+</html>
