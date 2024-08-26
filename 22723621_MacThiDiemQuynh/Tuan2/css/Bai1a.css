@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    color: #a52a2a;
+    text-shadow: 2px 17px 15px rgba(255, 14, 14, 0.5);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.bar {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(255, 14, 14, 0.5)
+}
+
+.bar a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.nav_bar {
+    height: 40px;
+    color: #a52a2a;
+    background-color: #f5f5dc;
+    margin-top: 2px;
+    font-size: 35px;
+}
+
+.special {
+    color: #d2691e;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.back {
+    color: red;
+}
+
+.vegetian {
+    color: red;
+}
