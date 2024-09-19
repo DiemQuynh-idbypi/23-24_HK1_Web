@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 960px;
+    height: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+
+.heading {
+    border-bottom: 3px solid #ffa500;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.heading img {
+    float: right;
+    height: 100px;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.content .aside {
+    float: left;
+    width: 20%;
+    background-image: url(../images/back.jpg);
+    background-repeat: repeat-y;
+    height: 895px;
+}
+
+.content .main {
+    float: left;
+    width: 75%;
+    margin-left: 20px;
+}
+
+.aside li {
+    border-bottom: 2px dashed #d69760;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    padding-bottom: 5px;
+    width: 80%;
+    color: #5d258b;
+}
+
+.aside ul {
+    margin-top: 20px;
+}
+
+.aside a {
+    text-decoration: none;
+}
+
+.main h1 {
+    color: #ffa500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+footer {
+    color: #ffa500;
+    margin-top: 5px;
+}
+
+.main1 {
+    background-image: url(../images/sample.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 590px;
+    height: 760px;
+    margin-top: 40px;
+}
+
+.nav1 {
+    float: right;
+    width: 28%;
+    background-color: #fffff0;
+    border: 5px solid #bcbcbc;
+    border-style: outset;
+    padding: 10px 10px 10px 10px;
+    margin-top: -50px;
+    margin-right: 21px;
+}
+
+.nav1 p {
+    color: #ad4b50;
+    font-size: 15px;
+}
+
+.nav2 {
+    float: left;
+    width: 28%;
+    background-color: #fffff0;
+    border: 5px solid #bcbcbc;
+    border-style: outset;
+    padding: 10px 10px 10px 10px;
+    margin-top: 310px;
+    margin-left: -40px;
+}
+
+.nav2 p {
+    color: #ad4b50;
+    font-size: 15px;
+}
+
+.nav3 {
+    float: right;
+    width: 27%;
+    background-color: #fffff0;
+    margin-top: 200px;
+    border: 5px solid #bcbcbc;
+    border-style: outset;
+    padding: 10px 10px 10px 10px;
+    margin-top: 510px;
+    margin-right: -160px;
+}
+
+.nav3 p {
+    color: #ad4b50;
+    font-size: 15px;
+}
+
+.border {
+    border-bottom: 3px solid #ffa500;
+}

@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background-image: url(../images/background.jpg);
+    width: 1000px;
+    height: 1260px;
+    margin: auto;
+    justify-content: center;
+}
+
+.img_hd img {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.main {
+    float: left;
+    width: 79%;
+    border-left: 2px solid #009a00;
+    margin-bottom: 10px;
+}
+
+.aside {
+    float: left;
+    width: 17%;
+    padding-left: 7px;
+    padding-top: 10px;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 10px;
+    border: 6px solid rgb(197, 197, 197);
+    border-style: outset;
+}
+
+.aside p {
+    margin-bottom: 15px;
+    color: #b249ae;
+}
+
+.aside a {
+    text-decoration: none;
+}
+
+.main1 {
+    overflow: hidden;
+}
+
+.main1>h1 {
+    background-color: #009a00;
+    color: white;
+    width: 75%;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    letter-spacing: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.main1 p {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.main2 h1 {
+    background-color: #009a00;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-left: 15px;
+    width: 400px;
+    padding-left: 20px;
+}
+
+.main2 li {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.m2_ct1 {
+    padding-left: 25px;
+}
+
+.main2 ul {
+    padding-bottom: 15px;
+}
+
+.main3 h1 {
+    background-color: #009a00;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    font-size: 25px;
+    width: 400px;
+    padding-left: 20px;
+}
+
+.main3 li {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.m3_ct1 {
+    padding-left: 25px;
+}
+
+.ct1 {
+    float: left;
+    width: 75%;
+    padding-left: 15px;
+}
+
+.ct2 {
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.ct3 {
+    float: left;
+    padding-left: 15px;
+}
+
+address {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.line {
+    margin-top: 10px;
+}
+
+.line hr {
+    border: 1px solid #009a00;
+    margin-bottom: 2px;
+    width: 95%;
+    margin-left: 20px;
+}

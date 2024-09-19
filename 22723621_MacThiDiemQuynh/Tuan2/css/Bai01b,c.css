@@ -1,0 +1,104 @@
+.title {
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 20px 5px rgba(255, 14, 14, 0.5);
+}
+
+.bar {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(255, 14, 14, 0.5)
+}
+
+.bar a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.nav_bar {
+    color: brown;
+    display: block;
+    width: 400px;
+    margin-left: 100px;
+    letter-spacing: 10px;
+    background-color: rgba(255, 14, 14, 0.5);
+}
+
+.special {
+    color: rgba(149, 82, 0, 0.5);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.back {
+    color: red;
+}
+
+.vegetian {
+    color: red;
+}
+
+.main {
+    display: flex;
+}
+
+.ct1 {
+    height: 500px;
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+}
+
+.list div {
+    color: white;
+    margin-top: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 14, 14, 0.5);
+}
+
+.ct2 {
+    height: 500px;
+    width: 55%;
+    float: left;
+    padding-right: 30px;
+}
+
+.ct3 {
+    height: fit-content;
+    padding-left: 5px;
+    width: 20%;
+    float: left;
+    background-color: black;
+    padding-right: 30px;
+}
+
+.ct3 .ct3_heading {
+    color: white;
+}
+
+.ct3 .ct3_content {
+    padding-left: 20px;
+    color: white;
+}
+
+.ct2_content input {
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    height: 50px;
+    /* Chiều cao của div để căn giữa dọc hoạt động */
+    border: 1px solid black;
+    /* Để thấy rõ vùng của div */
+    color: white;
+    background-color: rgba(255, 14, 14, 0.5);
+}

@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(../images/background.jpg);
+    width: 100%;
+    height: 750px;
+}
+
+.container a {
+    justify-content: center;
+    display: flex;
+}
