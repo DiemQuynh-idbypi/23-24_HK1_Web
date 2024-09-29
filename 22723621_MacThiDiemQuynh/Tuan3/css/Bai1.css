@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    background: linear-gradient(to bottom, #6ecbec, #5da4ef);
+    margin: auto;
+    justify-content: center;
+    position: relative;
+}
+
+.head {
+    width: 100%;
+    height: 65px;
+    border-bottom: 6px dotted white;
+}
+
+.nav_menu {
+    width: 70%;
+    float: left;
+    margin-left: 40px;
+}
+
+.nav_menu a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+header {
+    width: 20%;
+    float: right;
+}
+
+header h1 {
+    margin-top: 7px;
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 2px 1px 2px #1e1d1d, 5px 4px 6px #1e3bc6;
+}
+
+.ct1 {
+    width: 50%;
+    float: left;
+}
+
+.ct2 {
+    width: 50%;
+    float: left;
+}
+
+.article {
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.article h1 {
+    margin-bottom: 20px;
+}
+
+.article p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.ct2 img {
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.ct2 h1 {
+    color: #0000ff;
+    margin-left: 80px;
+    margin-top: 20px;
+    text-shadow: 2px 3px 1px #0000ff;
+}
+
+.ct2 h2 {
+    color: #0000ff;
+    margin-left: 100px;
+    font-size: 22px;
+}
+
+form {
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.form_aside {
+    float: left;
+    margin-left: 40px;
+    width: 33%;
+}
+
+.form_aside p {
+    color: white;
+    margin-bottom: 7px;
+}
+
+.form_main {
+    float: left;
+    width: 50%;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    border-top: 6px dotted white;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
+.form_main input {
+    width: 260px;
+    margin-bottom: 7px;
+    border: 1.5px solid #003fed;
+    border-radius: 5.5px;
+}
+
+.form_main textarea {
+    height: 90px;
+    width: 265px;
+    align-items: center;
+    padding-left: 10px;
+    border: 1.5px solid #003fed;
+    border-radius: 5.5px;
+}
+
+.form_main select {
+    margin-bottom: 7px;
+    border: 1.5px solid #003fed;
+    border-radius: 5.5px;
+}
+
+.form_main button {
+    width: 55px;
+    height: 18px;
+    border: 1.5px dashed #003fed;
+    border-radius: 5px;
+}
