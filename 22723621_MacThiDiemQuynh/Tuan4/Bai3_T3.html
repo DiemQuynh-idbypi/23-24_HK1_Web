@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Retain only styles that are unique and not replaced by Bootstrap */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .head header {
+            text-shadow: -3px -4px 4px #fff;
+            border-bottom: 1.5px solid black;
+        }
+        
+        .nav_menu a {
+            color: #d96519;
+        }
+        
+        .p1 {
+            color: #ae9840;
+        }
+        
+        button {
+            background-color: #808000;
+        }
+        
+        footer {
+            background-image: url(../images/footer.png);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Head -->
+        <div class="row bg-warning-subtle ">
+            <div class="justify-content-left col-12 bg-warning text-center py-3 fs-1 shadow-lg" style="letter-spacing: 5px; text-align: left !important; color:#d96519; text-shadow: -3px -4px 4px #fff">
+                AUTUMN TRAVEL COMPANY
+            </div>
+            <nav class="nav justify-content-left col-12">
+                <a class="nav-link ms-5" href="#" style="color:#d96519">Home</a>
+                <a class="nav-link ms-5" href="#" style="color:#d96519">About</a>
+                <a class="nav-link ms-5" href="#" style="color:#d96519">Products</a>
+                <a class="nav-link ms-5" href="#" style="color:#d96519">Services</a>
+                <a class="nav-link ms-5" href="#" style="color:#d96519">Order</a>
+            </nav>
+            <div class="col-12">
+                <img src="./images/flowers.png" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <h1 class="text-center">Sign up for membership benefits</h1>
+                <p class="text-muted text-center" style="word-wrap: break-word;
+    overflow-wrap: break-word;"><i>Our philisophical values are transparency, respect, formality and responsibility. Our stimulus is your enthusiasm. Our motto is your satisfation.</i></p>
+                <div class="form">
+                    <input type="text" class="form-control mb-3" placeholder="Username">
+                    <input type="email" class="form-control mb-3" placeholder="E-mail">
+                    <input type="password" class="form-control mb-3" placeholder="Password">
+                    <input type="password" class="form-control mb-3" placeholder="Retype password">
+                    <button class="btn btn-warning">SIGN ME UP</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row rounded-4" style="background-color: rgb(255, 215, 141); border-radius: 15px;">
+                    <h2 class="mb-4">Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="text-decoration: none; color: #d96519;">Make your Own Tour</a></li>
+                        <li><a href="#" style="text-decoration: none; color: #d96519;">Maldives Tours</a></li>
+                        <li><a href="#" style="text-decoration: none; color: #d96519;">Nature & Adventure</a></li>
+                        <li><a href="#" style="text-decoration: none; color: #d96519;">Readymade Tours</a></li>
+                        <li><a href="#" style="text-decoration: none; color: #d96519;">Europe Tours</a></li>
+                        <li><a href="#" style="text-decoration: none; color: #d96519;">Russia Tours</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>More Info</h2>
+                        <img src="./images/leave.png" class="img-fluid mb-3" alt="" style="width: 100px;overflow-wrap: break-word;">
+                        <p style="overflow-wrap: break-word;">Our purpose is the client who gives to us the opportunites to serve and to make known the reality arround the world</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center py-3">
+            &copy; 2017 Software Engineering Department | Test Date 16 Sept 2017
+        </footer>
+    </div>
+</body>
+
+</html>
